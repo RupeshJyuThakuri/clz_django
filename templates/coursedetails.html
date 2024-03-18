@@ -1,0 +1,5 @@
+{% for course in course %}
+<h1>ID: {{course.pk}}</h1>
+<h1>Course: {{course.name}}</h1>
+<h1>Course Category: {{course.category.name}}</h1>
+{% endfor %}
